@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jason ajax</title>
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/css/style.min.css">
+    <script src="build/js/jquery.min.js" charset="utf-8"></script>
+    <script src="build/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="src/js/master.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="status">
+
+    </div>
+    <div class="top-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <ul>
+                  <li><a href="">Sign Up</a></li>
+                  <li><a href="">Login</a></li>
+                  <li><a href="">RSS Feeds</a></li>
+                  <li><a href="">Archived News</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="social-icons">
+                  <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href=""></a></li>
+                  <li><i class="fa fa-twitter" aria-hidden="true"></i><a href=""></a></li>
+                  <li><i class="fa fa-facebook" aria-hidden="true"></i><a href=""></a></li>
+                  <li><i class="fa fa-rss" aria-hidden="true"></i><a href=""></a></li>
+                  <li><i class="fa fa-youtube" aria-hidden="true"></i><a href=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Sample <span>Logo</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Company <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Advantage</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Get Started</a></li>
+
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>JSON AND AJAX</h1>
+          <button class="bg-primary" id="btn">Fetch The 3 new animals</button>
+          <button class="bg-success" id="name">Fetch The 3 new animals</button>
+          <div id="animal-info">
+          </div>
+          <div id="name">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Changed Text</h1>
+          <button class="bg-primary" type="button" name="button">Added Text</button>
+          <ul id="listitem">
+            <li>Sample1</li>
+            <li>Sample2</li>
+            <li>Sample3</li>
+            <li>Sample4</li>
+            <li>Sample5</li>
+            <li>Sample6</li>
+            <li>Sample7</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="fruits">
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="color-a">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <ul class="list">
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+              <li>This is sample text</li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <p class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="color-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+              <ul class="wp-post">
+
+              </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

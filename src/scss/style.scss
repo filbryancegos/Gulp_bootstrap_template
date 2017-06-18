@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.top-bg {
+  background: #2e2e2e;
+  color: #fff;
+  padding: 10px 0;
+  ul {
+    li {
+      display: inline;
+      float: left;
+      a {
+        padding: 0 10px;
+        color: #fff;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .social-icons {
+    float: right;
+    li {
+      background-color: #000;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+      &:hover{
+        background: orange;
+      }
+    }
+  }
+}
+
+section {
+  p.color-a{
+    background: #f3c68d;
+    padding: 30px;
+    color: #000;
+  }
+  ul.list{
+    color: #000;
+    li {
+      background: #f1da84;
+      border: 2px solid #f3c68d;
+      margin: 5px 0;
+      padding: 5px;
+    }
+  }
+  p.box{
+    background: #b0f595;
+    padding: 30px;
+    color: #000;
+  }
+  p.color-b{
+    background: #e3aaea;
+    padding: 30px;
+    color: #000;
+  }
+  .wp-post {
+    background: #9fdcea;
+    padding: 20px;
+  }
+}
+
+.status {
+  background: #000;
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  float: right;
+  z-index: 999;
+}
